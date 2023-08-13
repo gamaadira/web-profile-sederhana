@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>WEB PROFILE</title>
+</head>
+<body>
+    <header class="animate__animated animate__backInDown">
+        <div class="logo animate__animated animate__pulse animate__infinite	infinite">
+            <img src="assests/icon/partner.png" alt="logo" class="logo-img">
+            <h1 class="logo-title">GAMA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#value">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta animate__animated animate__pulse animate__infinite" onclick="redirInstagram()">FOLLOW GENGS</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title animate__animated animate__backInLeft">HELLO, GAMA IS HERE</p>
+            <p class="description animate__animated animate__backInRight">DEVELOPER WANNA BE</p>
+            <img src="assests/foto/gama.jpg" alt="gama 1" class="img-foto animate__animatedna b animate__backInUp"/>
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">INI ADALAH WEBSITE PROFILE SAYA</p>
+            <p class="description"></p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">KLIK UNTUK INFO LEBIH LANJUT</button>
+            </div>
+        </div>
+        <div class="container"> 
+                <div class="plus " id="value">
+                    <div class="plus-item animate__animated animate__bounceInLeft">
+                        <img src="assests/icon/24-hours.png" alt="icon 1" class="icon"/>
+                        <p class="card-title">HTML</p>
+                        <p class="card-description"></p>
+                    </div>        
+                    <div class="plus-item animate__animated animate__bounceInUp">
+                        <img src="assests/icon/hot-deal.png" alt="icon 1" class="icon"/>
+                        <p class="card-title">CSS</p>
+                        <p class="card-description"></p>
+                    </div>        
+                    <div class="plus-item animate__animated animate__bounceInRight">
+                        <img src="assests/icon/price-tag.png" alt="icon 1" class="icon"/>
+                        <p class="card-title">JAVASCRIPT</p>
+                        <p class="card-description"></p>
+                    </div>        
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; WEBSITE ADIRAGAMA </p>
+    </footer>
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://www.instagram.com/gamaadr_/"
+            
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6281290021965"
+            
+        }
+    </script>
+</body>
+</html>
